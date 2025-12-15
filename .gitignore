@@ -1,0 +1,9 @@
+# Directorios de compilación y Visual Studio
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# Archivos de usuario/solución
+*.suo
+*.user
+*.pdb
