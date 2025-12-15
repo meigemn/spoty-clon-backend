@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spoty-clon_backend", "spoty-clon_backend\spoty-clon_backend.csproj", "{027DF0A5-DE02-4CB1-90B8-CACDB4BCB522}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027DF0A5-DE02-4CB1-90B8-CACDB4BCB522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027DF0A5-DE02-4CB1-90B8-CACDB4BCB522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027DF0A5-DE02-4CB1-90B8-CACDB4BCB522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027DF0A5-DE02-4CB1-90B8-CACDB4BCB522}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AAF34930-7721-437A-A97D-6278139B3825}
+	EndGlobalSection
+EndGlobal

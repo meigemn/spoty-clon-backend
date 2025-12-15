@@ -1,0 +1,6 @@
+@spoty_clon_backend_HostAddress = http://localhost:5208
+
+GET {{spoty_clon_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
