@@ -11,4 +11,17 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Context\" />
+    <Folder Include="Models\Dtos\CreateDtos\" />
+    <Folder Include="Models\Dtos\EntityDtos\" />
+    <Folder Include="Models\Dtos\FIlterDtos\" />
+    <Folder Include="Models\Dtos\RequestDtos\" />
+    <Folder Include="Models\Entities\" />
+    <Folder Include="Models\UnitsOfWork\" />
+    <Folder Include="Models\Repositories\" />
+    <Folder Include="Models\Pocos\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+
 </Project>
