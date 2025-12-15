@@ -1,5 +1,19 @@
 ﻿namespace spoty_clon_backend.Utils
 {
+    /// <summary>
+    ///     Tipos de filtrado para las tablas
+    /// </summary>
+    public enum FilterType
+    {
+        contains,
+        equals,
+        greatherThan,
+        greatherThanEqual,
+        isNullOrEmpty,
+        lessThan,
+        lessThanEqual,
+        notEquals
+    }
     public enum ResponseCodes
     {
         /// <summary>

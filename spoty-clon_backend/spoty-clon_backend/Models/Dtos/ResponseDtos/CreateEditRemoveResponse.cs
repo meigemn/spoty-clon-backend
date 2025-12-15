@@ -1,0 +1,27 @@
+﻿namespace spoty_clon_backend.Models.Dtos.ResponseDtos
+{
+    public class CreateEditRemoveResponse
+    {
+        public class CreateEditRemoveResponseDto
+        {
+            public int Id { get; set; }
+            public bool Success { get; set; }
+            public List<string> Errors { get; set; }
+
+            #region Constructors
+
+            public CreateEditRemoveResponseDto()
+            {
+                Errors = new List<string>();
+            }
+
+            #endregion
+
+            public void IsSuccess(int id)
+            {
+                Id = id;
+                Success = true;
+            }
+        }
+    }
+}
